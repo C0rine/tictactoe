@@ -74,7 +74,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // Reset all the buttons upon starting a new game
+    // Reset all the buttons upon pressing start new game
     public void onStartNewGame(View view) {
 
         grid.setVisibility(View.VISIBLE);
@@ -90,7 +90,7 @@ public class MainActivity extends ActionBarActivity {
         button9.setText("·");
     }
 
-    // Change icon in tic tac toe buttons depending on who's turn it is
+    // Change character in tic tac toe buttons depending on who's turn it is
     public void onClickButton1(View view) {
 
         if (turn%2 == 0 && button1.getText()=="·"){
@@ -104,7 +104,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    // repeating for all tic tac toe buttons...
+    // Repeating for all tic tac toe buttons...
 
     public void onClickButton2(View view) {
 
