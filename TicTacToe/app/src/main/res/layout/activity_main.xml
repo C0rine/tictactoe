@@ -39,7 +39,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button1"
             android:layout_row="0"
             android:layout_column="0"
@@ -53,7 +53,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button2"
             android:layout_row="0"
             android:layout_column="1"
@@ -67,7 +67,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button3"
             android:layout_row="0"
             android:layout_column="2"
@@ -81,7 +81,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button4"
             android:layout_row="1"
             android:layout_column="0"
@@ -95,7 +95,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button5"
             android:layout_row="1"
             android:layout_column="1"
@@ -109,7 +109,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button6"
             android:layout_row="1"
             android:layout_column="2"
@@ -123,7 +123,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button7"
             android:layout_row="2"
             android:layout_column="0"
@@ -137,7 +137,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button8"
             android:layout_row="2"
             android:layout_column="1"
@@ -151,7 +151,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/testdollar"
+            android:text="·"
             android:id="@+id/button9"
             android:layout_row="2"
             android:layout_column="2"

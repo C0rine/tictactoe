@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridLayout;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -21,10 +22,12 @@ public class MainActivity extends ActionBarActivity {
     private Button button7;
     private Button button8;
     private Button button9;
+    private GridLayout grid;
 
     // Create counter to keep track of who's turn it is
     // If the turn value is an even number its O's turn, if its uneven it's X's turn
-    Integer turn = 0;
+    // X always has the first turn
+    Integer turn = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +45,10 @@ public class MainActivity extends ActionBarActivity {
         button7 = (Button) findViewById(R.id.button7);
         button8 = (Button) findViewById(R.id.button8);
         button9 = (Button) findViewById(R.id.button9);
+        grid = (GridLayout) findViewById(R.id.grid);
+
+        // Initially hide the grid for the game until the user presses 'Start new game'
+        grid.setVisibility(View.GONE);
     }
 
 
@@ -69,6 +76,8 @@ public class MainActivity extends ActionBarActivity {
 
     // Reset all the buttons upon starting a new game
     public void onStartNewGame(View view) {
+
+        grid.setVisibility(View.VISIBLE);
 
         button1.setText("·");
         button2.setText("·");
